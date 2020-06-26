@@ -43,10 +43,6 @@ cd $HOME/ishamrai/ponomarev/distr/$param
 done
 cd $HOME/ishamrai/ponomarev/distr/
  file="$HOME/ishamrai/ponomarev/temp.txt"
-#  lines=`cat $file`
-#  for line in $lines; do
-#     echo "$line"
-#  done
  for val in $(cat $file)
  do
 SSHPORT1=`cat $HOME/ishamrai/ponomarev/temp/sshport1`
